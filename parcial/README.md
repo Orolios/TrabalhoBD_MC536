@@ -1,4 +1,4 @@
-# Projeto `<Título do Projeto/Jogo>`
+# Projeto `Mobile App Analysis`
 
 # Equipe `Esquilos Berrantes` - `ESB`
 * `Lucas Jacinto Gonçalves` - `240013`
