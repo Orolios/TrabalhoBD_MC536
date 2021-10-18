@@ -1,6 +1,6 @@
-# Equipe `<nome da equipe>` - `<sigla da equipe>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
+# Equipe `<Esquilos Berrantes>` - `<ESB>`
+* `<Lucas Jacinto Gonçalves>` - `<240013>`
+* `<Leonardo Novaes do Nascimento>` - `<220142>`
 * `<nome completo>` - `<RA>`
 
 ## Modelo Lógico Combinado do Banco de Dados de Grafos
