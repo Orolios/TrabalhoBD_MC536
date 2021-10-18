@@ -1,7 +1,7 @@
 # Equipe `<Esquilos Berrantes>` - `<ESB>`
 * `<Lucas Jacinto Gonçalves>` - `<240013>`
 * `<Leonardo Novaes do Nascimento>` - `<220142>`
-* `<nome completo>` - `<RA>`
+* `<Daniel Mendes dos Santos>` - `<214752>`
 
 ## Modelo Lógico Combinado do Banco de Dados de Grafos
 > Coloque aqui o modelo ou modelos que serão usados pela equipe combinando os individuais, conforme especificação.
