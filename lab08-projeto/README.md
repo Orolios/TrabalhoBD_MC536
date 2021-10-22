@@ -23,6 +23,6 @@
 
  
 ### Pergunta/Análise 3
-> * Pergunta 3
+> * Quem tem mais aplicativos pagos, android ou Ios?
 >   
 >   * Explicação sucinta da análise que será feita no grafo para atender à pergunta. Deve ser indicado explicitamente em qual das modalidades a análise se encaixa: centralidade; vulnerabilidade; comunidade/modularidade; motifs; predição de links.
