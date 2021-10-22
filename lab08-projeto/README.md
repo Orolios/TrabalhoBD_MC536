@@ -12,7 +12,7 @@
 >
 ### Pergunta/Análise 1
 > * Pergunta 1
->   
+>   A categoria do aplicativo Android mais bem avaliado (classificado) possui monetização ?
 >   * Explicação sucinta da análise que será feita no grafo para atender à pergunta. Deve ser indicado explicitamente em qual das modalidades a análise se encaixa: centralidade; vulnerabilidade; comunidade/modularidade; motifs; predição de links.
 
 ### Pergunta/Análise 2
