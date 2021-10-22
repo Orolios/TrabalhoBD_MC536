@@ -18,7 +18,7 @@
 ### Pergunta/Análise 2
 > * Pergunta 2
 >   Qual é a diferença no número de instalações para cada categoria entre aplicativos monetizados e não monetizados?
->   A análise do modelo lógico de grafo referente a essa pergunta, assim como o da pergunta acima, se encaixa na modalidade de centralidade,uma vez que, o app Android é um nó com  betweenness centrality e closeness centrality, logo, ratifica-se sua importância ao se tratar os dados analizados nas extremidades. Nesse sentido, para chegarmos em uma resposta para essa questão precisa-se por intermédio desse nó estabelecer a relação entre essas extremidades. 
+>   * A análise do modelo lógico de grafo referente a essa pergunta, assim como o da pergunta acima, se encaixa na modalidade de centralidade,uma vez que, o app Android é um nó com  betweenness centrality e closeness centrality, logo, ratifica-se sua importância ao se tratar os dados analizados nas extremidades. Nesse sentido, para chegarmos em uma resposta para essa questão precisa-se por intermédio desse nó estabelecer a relação entre essas extremidades. 
   Diante disso, pode-se futuramente remodelar esse modelo combinado de grafo a fim descentraliza-lo e liberá-lo dessa da dependência desse nó, como por exemplo, a criação de relacionamentos 1 a 1 das extremidades a aumentar a modularidade e os motifs do modelo de forma a torná-lo mais legível e interpretável.
 
  
