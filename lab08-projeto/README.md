@@ -26,6 +26,6 @@
 > * Pergunta 3: 
 >   Qual categoria tem o maior ganho de dinheiro para cada plataforma?
 >   
->   *Para essa análise pode ser utilizada a rede complexa na imagem onde podemos identificar comunidades de aplicativos. Estas são delimitadas pelo nó que indica a plataforma
+>   * Para essa análise pode ser utilizada a rede complexa na imagem onde podemos identificar comunidades de aplicativos. Estas são delimitadas pelo nó que indica a plataforma
 >   dos aplicativos e pelo nó da categoria referente aquela comunidade (esse seria o senso mais forte). Logo, podemos analisar cada comunidade isoladamente para encontrar o
 >   total de dinheiro ganho em cada categoria das plataformas. Por fim, podemos comparar os resultados.
