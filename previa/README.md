@@ -131,31 +131,31 @@ título da base | link | breve descrição
 > demonstrar o potencial da base.
 >
 ### Pergunta/Análise 1
-> * Pergunta 1
+> * Qual a diferença na quantidade de downloads considerando o ano de 2019 (pré-pandemia) e o ano de 2021 (pós-pandemia), considerando as categorias aos quais eles pertencem ?
 >   
 >   * Explicação sucinta da análise que será feita ou conjunto de queries que
 >     responde à pergunta.
 
 ### Pergunta/Análise 2
-> * Pergunta 2
+> * Qual a diferença entre o fator de avaliação (normalização) entre o mesmo aplicativo no sistema Android e iOS, porém que seja pago em um sistema e gratuito em outro ?
 >   
 >   * Explicação sucinta da análise que será feita ou conjunto de queries que
 >     responde à pergunta.
 
 ### Pergunta/Análise 3
-> * Pergunta 3
+> * Levando em consideração o suporte a publicidade, a monetização do aplicativo e a presença de compras dentro dos aplicativos, qual o método mais rentável de monetização ?
 >   
 >   * Explicação sucinta da análise que será feita ou conjunto de queries que
 >     responde à pergunta.
 
 ### Pergunta/Análise 4
-> * Pergunta 4
+> * Top 10 melhores aplicativos com suporte para propaganda para determinada empresa de um ramo específico (categoria)
 >   
 >   * Explicação sucinta da análise que será feita ou conjunto de queries que
 >     responde à pergunta.
 
 ### Pergunta/Análise 5
-> * Pergunta 5
+> *  Levando em consideração a faixa etária e a plataforma, qual a categoria de aplicativo mais baixado por cada público-alvo ?
 >   
 >   * Explicação sucinta da análise que será feita ou conjunto de queries que
 >     responde à pergunta.
