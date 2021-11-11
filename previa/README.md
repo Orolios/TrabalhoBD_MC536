@@ -45,12 +45,12 @@ Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. 
 
 # Modelo para Apresentação da Entrega Prévia do Projeto
 
-# Projeto `<Título do Projeto>`
+# Projeto `<Mobile App Analysis>`
 
-# Equipe `<nome da equipe>` - `<sigla da equipe>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
+# Equipe `<Esquilos Berrantes>` - `<ESB>`
+* `<Lucas Jacinto Gonçalves>` - `<240013>`
+* `<Leonardo Novaes do Nascimento>` - `<220142>`
+* `<Daniel Mendes dos Santos>` - `<214752>`
 
 ## Resumo do Projeto
 > Texto resumindo o projeto.
