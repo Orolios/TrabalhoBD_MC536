@@ -53,7 +53,8 @@ Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. 
 * `<Daniel Mendes dos Santos>` - `<214752>`
 
 ## Resumo do Projeto
->  O objetivo deste Projeto é processar o dataset referente aos aplicativos da loja da Google e da loja da Apple, com a finalidade de analisar o comportamento dos usuários dos respectivos sistemas com relação a compras dos apps, categorias dos apps mais baixados, quantidade de apps instalados, relação dos aplicativos pagos/gratuitos e sua categoria correspondente. A análise dos dados de ambos os datasets é importante, pois Google e Apple monopolizam o mercado dos aplicativos mobile e a partir da análise das duas gigantes da tecnologia, é possível mapear comportamentos dos usuários com relação aos aplicativos mais usados, percentual de aplicativos pagos em ambas as plataformas, bem como se determinada plataforma (Android ou iOS) os usuários estão mais dispostos a comprarem a versão premium de um app gratuito.
+>  O projeto Mobile App Analysis visa analisar o comportamento das duas maiores plataformas mobile atualmente: Android e iOS através dos aplicativos que são disponibilizados nas respectivas lojas. Através do processamento de ambos os datasets é possível determinar, por exemplo, qual plataforma oferece para uma determinada empresa maior lucratividade na disponibilização dos seus anúncios. Além disso, é possível observar o comportamento de um aplicativo que possui uma versão paga e outra gratuita como, por exemplo, se a versão paga possui qualidade superior quando comparado com a versão gratuita. 
+>  Na plataforma do Android no qual temos os datasets referentes a 2019 e 2021 será possível observar o comportamento dos aplicativos com relação a sua categoria que obtiveram crescimento durante o atual momento de pandemia.
 
 ## Slides da Apresentação
 > Coloque aqui o link para o PDF da apresentação prévia
