@@ -58,7 +58,7 @@ Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. 
 >  Na plataforma do Android no qual temos os datasets referentes a 2019 e 2021 será possível observar o comportamento dos aplicativos com relação a sua categoria que obtiveram crescimento durante o atual momento de pandemia.
 
 ## Slides da Apresentação
-> Coloque aqui o link para o PDF da apresentação prévia
+> ![Slides](slides/esb.pdf)
 
 ## Modelo Conceitual Preliminar
 
