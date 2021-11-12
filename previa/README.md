@@ -153,7 +153,7 @@ título da base | link | breve descrição
 ### Pergunta/Análise 4
 > * Top 10 melhores aplicativos com suporte para propaganda para determinada empresa de um ramo específico (categoria)
 >   
-Para descobrir quais são os melhores aplicativos para uma determinada empresa colocar sua publicidade, iremos fazer uma agregação das tabelas Apps e Modelos de Monetização, onde só terá aplicativos com publicidade. Em seguida, iremos fazer uma outra agregação com a tabela criada anteriormente e com a tabela de Categoria para ter somente os Apps com as categorias referentes a empresa. Por fim, iremos ordenar de acordo com os critérios: fator de classificação, nota, números de avaliações.
+Para descobrir quais são os melhores aplicativos para uma determinada empresa colocar sua publicidade, iremos fazer uma agregação das tabelas Apps e Modelos de Monetização, onde só terá aplicativos com publicidade. Em seguida, iremos fazer uma outra agregação com a tabela criada anteriormente e com a tabela de Categoria para ter somente os Apps com as categorias interresantes para a empresa. Por fim, iremos ordenar de acordo com os critérios: fator de classificação, nota, números de avaliações.
 
 ### Pergunta/Análise 5
 > *  Levando em consideração a faixa etária e a plataforma, qual a categoria de aplicativo mais baixado por cada público-alvo ?
