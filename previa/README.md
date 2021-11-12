@@ -135,19 +135,19 @@ título da base | link | breve descrição
 ### Pergunta/Análise 1
 > * Qual a diferença na quantidade de downloads considerando o ano de 2019 (pré-pandemia) e o ano de 2021 (pós-pandemia), considerando as categorias aos quais eles pertencem ?
 >   
->   * Explicação sucinta da análise que será feita ou conjunto de queries que
->     responde à pergunta.
+>   *  Primeiramente, a diferença na quantidade de downloads só será possível considerando a plataforma Android, uma vez que o dataset da plataforma do iOS só está disponível no ano de 2019. Dito isso, utilizando a tabela Plataforma no qual escolhemos o Android para fazer essa análise, iremos para a tabela de Aplicativos, já que uma Plataforma pode ter inúmeros aplicativos. Na tabela Aplicativos, eu seleciono o ano de 2019 e vejo a quantidade de downloads neste ano para uma determinada Categoria, por exemplo, Games. De maneira semelhante, selecionamos o ano de 2021 e pegamos a informação da quantidade de downloads neste ano. 
+Por fim, para ver a análise do crescimento na quantidade de downloads considerando os anos de 2019 e 2021 de cada categoria, é realizado a divisão da quantidade de downloads do ano de 2021 pela quantidade de downloads no ano de 2019.
+
 
 ### Pergunta/Análise 2
 > * Qual a diferença entre o fator de avaliação (normalização) entre o mesmo aplicativo no sistema Android e iOS, porém que seja pago em um sistema e gratuito em outro ?
 >   
->   * Explicação sucinta da análise que será feita ou conjunto de queries que
->     responde à pergunta.
+>   *  Para descobrir o fator de avaliação de um aplicativo, primeiramente iremos selecionar os Aplicativos do Android ou iOS e, em seguida,  iremos selecionar o Modelo de Monetização, mais especificamente, se um aplicativo é gratuito ou não. A partir disso, é realizada uma busca desse aplicativo na loja concorrente com o intuito de descobrir um modelo de monetização diferente para esse app, ou seja, gratuito em uma plataforma e pago em outra ou vice-versa.  Realizado a busca desse aplicativo, iremos selecionar a classificação dele com relação ao fator normativo.  Esse fator normativo de cada plataforma será comparado e a partir disso, poderemos ver se existe alguma relação no fato do aplicativo ser pago e qual o impacto disso na qualidade do produto que é oferecido ao usuário.
 
 ### Pergunta/Análise 3
 > * Levando em consideração o suporte a publicidade, a monetização do aplicativo e a presença de compras dentro dos aplicativos, qual o método mais rentável de monetização ?
 >   
-Para descobrir qual é o método de monetização mais eficiente, precisamos fazer a agregação das tabelas Apps com a tabela de Modelos de Monetização para todos terem seus respectivos modelos. Depois, podemos montar gráficos mostrando quais métodos possuem as maiores quantidades de downloads e melhores avaliações e fazer uma análise de quais métodos podem render mais monetização  . 
+>   * Para descobrir qual é o método de monetização mais eficiente, precisamos fazer a agregação das tabelas Apps com a tabela de Modelos de Monetização para todos terem seus respectivos modelos. Depois, podemos montar gráficos mostrando quais métodos possuem as maiores quantidades de downloads e melhores avaliações e fazer uma análise de quais métodos podem render mais monetização  . 
 
 ### Pergunta/Análise 4
 > * Top 10 melhores aplicativos com suporte para propaganda para determinada empresa de um ramo específico (categoria)
