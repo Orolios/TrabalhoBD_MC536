@@ -147,8 +147,7 @@ título da base | link | breve descrição
 ### Pergunta/Análise 3
 > * Levando em consideração o suporte a publicidade, a monetização do aplicativo e a presença de compras dentro dos aplicativos, qual o método mais rentável de monetização ?
 >   
->   * Explicação sucinta da análise que será feita ou conjunto de queries que
->     responde à pergunta.
+Para descobrir qual é o método de monetização mais eficiente, precisamos fazer a agregação das tabelas Apps com a tabela de Modelos de Monetização para todos terem seus respectivos modelos. Depois, podemos montar gráficos mostrando quais métodos possuem as maiores quantidades de downloads e melhores avaliações e fazer uma análise de quais métodos podem render mais monetização  . 
 
 ### Pergunta/Análise 4
 > * Top 10 melhores aplicativos com suporte para propaganda para determinada empresa de um ramo específico (categoria)
