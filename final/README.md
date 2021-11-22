@@ -15,8 +15,8 @@
 
 ## Modelo Conceitual
 
-> Coloque aqui a imagem do modelo conceitual final em ER ou UML, como o exemplo a seguir:
-> ![ER Taxi](images/er-taxi.png)
+> Coloque aqui a imagem do modelo conceitual final em ER ou UML, como o exemplo a seguir:  
+> ![Diagrama UML](assets/uml.png)
 
 ## Modelos Lógicos
 
