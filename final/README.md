@@ -143,5 +143,3 @@ Por fim, para ver a análise do crescimento na quantidade de downloads considera
 > *  Levando em consideração a faixa etária e a plataforma, qual a categoria de aplicativo mais baixado por cada público-alvo ?
 >   
 >   * Primeiro será feito duas agregação com as tabelas Plataforma e Apps para criar duas  tabelas com os apps de Ios e Android separados. Depois, será feito um group by para reunir o total de downloads sobre as faixas etárias para cada plataforma e por fim podemos montar os gráficos para analisar o impacto da idade mínima no desempenho dos aplicativos.
-
-> Coloque um link para o arquivo do notebook que executa o conjunto de queries. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
