@@ -103,7 +103,7 @@ plt.show();
 > demonstrar o potencial da base.
 >
 ### Pergunta/Análise 1
-> * Quais são os Top 10 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem.
+> * Quais são os Top 10 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem ?
 >   
 >   
 
@@ -112,8 +112,6 @@ plt.show();
 >   
 
 ### Pergunta/Análise 3
-> * Levando em consideração o suporte a publicidade, a monetização do aplicativo e a presença de compras dentro dos aplicativos, qual o método mais rentável de monetização ?
->   
 
 > * Levando em consideração a faixa etária e a plataforma no qual o aplicativo pertence, qual a categoria de aplicativo mais baixado por cada público-alvo ?
 > 
