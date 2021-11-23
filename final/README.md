@@ -38,7 +38,7 @@ MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 > Para modelos hierárquicos (XML e JSON), utilize um formato
 > conforme o abaixo:
 
-> ![Modelo Lógico Hierárquico](images/modelo-logico-hierarquico.png)
+> ![Modelo Lógico Hierárquico](assets/docs.png)
 
 ## Dataset Publicado
 > Elencar os arquivos/bases preliminares dos datasets serão publicados.
