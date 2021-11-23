@@ -38,12 +38,6 @@ MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 > Para o modelo de grafos de conhecimento, utilize a abordagem
 > (recurso, propriedade, valor) para apresentar seu grafo exemplo.
 > Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image).
->
-> Você pode usar um grafo ilustrando as classes, como este:
-> ![Modelo Lógico de Grafos de Conhecimento](images/grafo-conhecimento-classes.png)
->
-> Além de outro com exemplo de instâncias, como este:
-> ![Modelo Lógico de Grafos](images/grafo-conhecimento-exemplo.png)
 
 > Para modelos hierárquicos (XML e JSON), utilize um formato
 > conforme o abaixo:
