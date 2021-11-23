@@ -28,7 +28,7 @@ PLATAFORMA(_Id_, Nome)
 CATEGORIA(_Id_, Nome)
 APLICATIVO(_Id_, _IdCategoria_, _IdModelo_, _IdPlataforma_, Download, Preço, Nome, FaixaEtaria)
 CLASSIFICACAO(_Id_, _IdAplicativo_, FatorClassificatorio, QuantidadeVotos, Nota)
-MODELODEMONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
+MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 ~~~
 
 > Para o modelo de grafos de propriedades, utilize este
