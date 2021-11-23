@@ -26,8 +26,12 @@
 ~~~
 PLATAFORMA(_Id_, Nome)
 CATEGORIA(_Id_, Nome)
-APLICATIVO(_Id_, _IdCategoria_, _IdModelo_, _IdPlataforma_, Download, Preço, Nome, FaixaEtaria)
-CLASSIFICACAO(_Id_, _IdAplicativo_, FatorClassificatorio, QuantidadeVotos, Nota)
+APLICATIVO(_Id_, IdCategoria, IdModelo, IdPlataforma, Download, Preço, Nome, FaixaEtaria)
+  IdCategoria chave estrangeira -> CATEGORIA(Id)
+  IdModelo chave estrangeira -> MODELO_DE_MONETIZACAO(Id)
+  IdPlataforma chave estrangeira -> PLATAFORMA(Id)
+CLASSIFICACAO(_Id_, IdAplicativo, FatorClassificatorio, QuantidadeVotos, Nota)
+  IdAplicativo chave estrangeira -> APLICATIVO(Id)
 MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 ~~~
 
