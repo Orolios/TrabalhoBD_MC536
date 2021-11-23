@@ -103,7 +103,7 @@ plt.show();
 > demonstrar o potencial da base.
 >
 ### Pergunta/Análise 1
-> * Quais são os Top 3 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem ?
+> * Quais são os Top 10 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem ?
 >   
 >   
 
