@@ -184,7 +184,7 @@ GROUP BY ModMon.Tipo;
 > * Pergunta 1
 >   
 >   * Os conteúdos mais bem avaliados e a relação com as categorias as quais eles pertencem
->   ![Download X categoria](assets/Downloads_por_categoria.png)
+>   ![Download X categoria](assets/Downloads_Por_categoria.png)
 >   Os aplicativos mais bem avaliados da loja Google Play em ordem decrescente de importância são:  
 >   WhatsApp Messenger, Instagram, Messenger Text and Video Chat for Free, Clash of Clans, Clean Master - Space Cleaner & Antivirus, Subway Surfers, Youtube, Security Master - Antivirus, VPN, AppLock, Booster, Clash Royale e Candy Crush Saga.
 
