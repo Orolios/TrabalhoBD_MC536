@@ -53,8 +53,32 @@ título da base | link | breve descrição
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `Dataset com 7200 dados de Aplicativos no IOs para a análise.`
 
 ## Detalhamento do Projeto
-> O projeto em quesntão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção"
+> O projeto em quesntão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
 ### "Estruturação e Conexão"
+#### connetion.py
+> Nesse códico em questão apenas se faz a conexão do python ao MySql e ao banco de dados criado localmente pelo terminal do MySql da seguinte forma:
+~~~python
+import mysql.connector
+from mysql.connector import Error
+def create_connection(host_name, user_name, user_password,db_name):
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host=host_name,
+            user=user_name,
+            passwd=user_password,
+            database=db_name,
+        )
+        print("Connection to MySQL DB successful")
+    except Error as e:
+        print(f"The error '{e}' occurred")
+    return connection
+
+
+connection = create_connection("127.0.0.1", "root", "root123","app_mc536")
+~~~python
+#### body.py
+#### util.py
 ### "Tratamento e Inserção"
 ~~~python
 df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
