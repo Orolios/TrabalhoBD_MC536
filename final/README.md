@@ -94,24 +94,45 @@ plt.show();
 
 > Liste aqui as perguntas de pesquisa/análise e respectivas análises. Nem todas as perguntas precisam de queries que as implementam. É possível haver perguntas em que a solução é apenas descrita para demonstrar o potencial da base. Abaixo são ilustradas três perguntas, mas pode ser um número maior a critério da equipe.
 >
+### Perguntas/Análise com Resposta Implementada
 
-## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
+> As respostas às perguntas podem devem ser ilustradas da forma mais rica possível com tabelas resultantes, grafos ou gráficos que apresentam os resultados. Os resultados podem ser analisados e comentados. Veja um exemplo de figura ilustrando uma comunidade detectada no Cytoscape:
 
-> Liste aqui as perguntas de pesquisa/análise e respectivas análises.
-> Nem todas as perguntas precisam de queries que as implementam.
-> É possível haver perguntas em que a solução é apenas descrita para
-> demonstrar o potencial da base.
->
-### Pergunta/Análise 1
-> * Quais são os Top 10 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem ?
+> ![Comunidade no Cytoscape](images/cytoscape-comunidade.png)
+
+#### Pergunta/Análise 1
+> * Pergunta 1
 >   
+>   * Explicação sucinta da análise que será feita e conjunto de queries que
+>     responde à pergunta.
+
+#### Pergunta/Análise 2
+> * Pergunta 2
 >   
+>   * Explicação sucinta da análise que será feita e conjunto de queries que
+>     responde à pergunta.
 
-### Pergunta/Análise 2
-> * Relacionando aplicativos pagos com os aplicativos gratuitos.
+#### Pergunta/Análise 3
+> * Pergunta 3
 >   
+>   * Explicação sucinta da análise que será feita e conjunto de queries que
+>     responde à pergunta.
 
-### Pergunta/Análise 3
+### Perguntas/Análise Propostas mas Não Implementadas
 
-> * Levando em consideração a faixa etária e a plataforma no qual o aplicativo pertence, qual a categoria de aplicativo mais baixado por cada público-alvo ?
-> 
+#### Pergunta/Análise 1
+> * Pergunta 1
+>   
+>   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+
+#### Pergunta/Análise 2
+> * Pergunta 2
+>   
+>   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+
+#### Pergunta/Análise 3
+> * Pergunta 3
+>   
+>   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+
+> Coloque um link para o arquivo do notebook que executa o conjunto de queries. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
