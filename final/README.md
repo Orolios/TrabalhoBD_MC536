@@ -120,9 +120,7 @@ plt.show();
 #### Pergunta/Análise 1
 > * Pergunta 1
 >   
->   * 2 - Qual a diferença na quantidade de downloads considerando o ano de 2019 (pré-pandemia) e o ano de 2021 (pós-pandemia), considerando as categorias aos quais eles pertencem ? (editado)
-
-
+>   * 2 - Qual a diferença na quantidade de downloads considerando o ano de 2019 (pré-pandemia) e o ano de 2021 (pós-pandemia), considerando as categorias aos quais eles pertencem ?
 
 #### Pergunta/Análise 2
 > * Pergunta 2
