@@ -204,5 +204,3 @@ GROUP BY ModMon.Tipo;
 > ![Download X Faixa Etária](assets/Downloads_por_faixaEtaria.png)
 >   A Faixa Etária Livre possui a maior quantidade de downloads juntamente com a Faixa Etária para indivíduos maiores de 12 anos.   
 
-### Gráficos de análise
-> Coloque um link para o arquivo do notebook que executa o conjunto de queries. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
