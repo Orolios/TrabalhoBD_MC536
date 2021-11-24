@@ -103,8 +103,7 @@ plt.show();
 #### Pergunta/Análise 1
 > * Pergunta 1
 >   
->   * Explicação sucinta da análise que será feita e conjunto de queries que
->     responde à pergunta.
+>   * Quais são os Top 10 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem ? 
 
 #### Pergunta/Análise 2
 > * Pergunta 2
