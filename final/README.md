@@ -39,7 +39,7 @@ título do arquivo/base | link | breve descrição
 ----- | ----- | -----
 `Aplicativo_202111240052.sql` | [Aplicativos](data/Aplicativo_202111240052.sql) | `Tabela com 25 mil aplicativos iOS e Android`
 `Class_202111240033.sql` | [Classificação](data/processed/Class_202111240033.sql)| `Tabela com 25 mil avaliacoes para cada aplicativo iOS e Android`
-`Categoria_202111240052.sql` | [Categorias](ddata/processed/Categoria_202111240052.sql)  | `Todas as categorias para todos os aplicativos`
+`Categoria_202111240052.sql` | [Categorias](data/processed/Categoria_202111240052.sql)  | `Todas as categorias para todos os aplicativos`
 `Plataforma_202111240052.sql` | [Plataforma](data/processed/Plataforma_202111240052.sql )  | `Tabela com as plataformas`
 `ModMon_202111240053.sql` | [Modelos de Monetização](data/processed/ModMon_202111240053.sql)   | `Tabela contendo os modelos de monetização de um aplicativo`
 
