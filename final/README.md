@@ -14,15 +14,11 @@
 > [Slides](slides/esb.pdf)
 
 ## Modelo Conceitual
-
-> Coloque aqui a imagem do modelo conceitual final em ER ou UML, como o exemplo a seguir:  
+ 
 > ![Diagrama UML](assets/uml.png)
 
 ## Modelos Lógicos
 
-> Coloque aqui os modelos lógicos dos bancos de dados relacionados aos modelos conceituais. Para o modelo relacional, sugere-se o formato a seguir. Para outros modelos lógicos, sugere-se aqueles apresentados em sala.
-
-> Exemplo de modelo lógico relacional
 ~~~
 PLATAFORMA(_Id_, Nome)
 CATEGORIA(_Id_, Nome)
@@ -34,9 +30,6 @@ CLASSIFICACAO(_Id_, IdAplicativo, FatorClassificatorio, QuantidadeVotos, Nota)
    IdAplicativo chave estrangeira -> APLICATIVO(Id)
 MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 ~~~
-
-> Para modelos hierárquicos (XML e JSON), utilize um formato
-> conforme o abaixo:
 
 > ![Modelo Lógico Hierárquico](assets/docs.png)
 
