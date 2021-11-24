@@ -225,7 +225,8 @@ Além disso podemos relacionar números de downloads, número de avaliações e 
 > * Pergunta 3
 > 
 >   * Levando em consideração a faixa etária e a plataforma no qual o aplicativo pertence, qual a categoria de aplicativo mais baixado por cada público-alvo ?  
-  ![Downloads X Modelo](assets/FaixaEtaria_quantidadeAplicativos.png)
+> ![Downloads X Modelo](assets/FaixaEtaria_quantidadeAplicativos.png)
 > ![Download X Faixa Etária](assets/Downloads_por_faixaEtaria.png)
+> 
 >   A Faixa Etária Livre possui a maior quantidade de downloads juntamente com a Faixa Etária para indivíduos maiores de 12 anos.   
 
