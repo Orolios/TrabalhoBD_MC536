@@ -1,9 +1,9 @@
-# Projeto `<Mobile App Analysis>`
+# Projeto `Mobile App Analysis`
 
-# Equipe `<Esquilos Berrantes>` - `<ESB>`
-* `<Lucas Jacinto Gonçalves>` - `<240013>`
-* `<Leonardo Novaes do Nascimento>` - `<220142>`
-* `<Daniel Mendes dos Santos>` - `<214752>`
+# Equipe `Esquilos Berrantes` - `ESB`
+* `Lucas Jacinto Gonçalves` - `240013`
+* `Leonardo Novaes do Nascimento` - `220142`
+* `Daniel Mendes dos Santos` - `214752`
 
 ## Resumo do Projeto
 >  O projeto Mobile App Analysis visa analisar o comportamento das duas maiores plataformas mobile atualmente: Android e iOS através dos aplicativos que são disponibilizados nas respectivas lojas. Através do processamento de ambos os datasets é possível determinar, por exemplo, qual plataforma oferece para uma determinada empresa maior lucratividade na disponibilização dos seus anúncios.  
