@@ -53,7 +53,7 @@ título da base | link | breve descrição
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `Dataset com 7200 dados de Aplicativos no IOs para a análise.`
 
 ## Detalhamento do Projeto
-> O projeto em questão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
+> O projeto em questão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src/banco) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
 ### "Estruturação e Conexão"
 #### connetion.py
 > Nesse códico em questão apenas se faz a conexão do python ao MySql e ao banco de dados criado localmente pelo terminal do MySql da seguinte forma:
