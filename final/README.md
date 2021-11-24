@@ -56,7 +56,9 @@ título do arquivo/base | link | breve descrição
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`<título da base>` | `https://www.kaggle.com/lava18/google-play-store-apps` | `<breve descrição da base>`
+`Google Play Store Apps` | `https://www.kaggle.com/lava18/google-play-store-apps` | `<breve descrição da base>`
+`Google Play Store Apps` | `https://www.kaggle.com/gauthamp10/google-playstore-apps/code` | `<breve descrição da base>`
+`Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `<breve descrição da base>`
 
 ## Detalhamento do Projeto
 > Apresente aqui detalhes do processo de construção do dataset e análise. Nesta seção ou na seção de Perguntas podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
