@@ -190,12 +190,19 @@ GROUP BY ModMon.Tipo;
 #### Pergunta/Análise 2
 > * Pergunta 2
 >   
->   * Relacionando aplicativos pagos com os aplicativos gratuitos. 
+>   * Qual a proporção dos aplicativos com relação a seu modelo de monetização?
+>   ![Downloads X Modelo](assets/Downloads_por_modelo2.png)
+>  Anteriormente existia a categoria “Sem monetização”, porém ela foi excluída por ser muito grande!
+> De acordo com o gráfico de Downloads por Modelos, os modelos de monetização como:  aplicativo com suporte a publicidade e compras no app (comércio), aplicativo focado em publicidade  e aplicativos pagos são os modelos de negócios mais rentáveis atualmente.
+> Aplicativos focados em comércio (compras no app) são em torno de 6x menos lucrativos quando em comparação com os aplicativos focados em publicidade e cerca de 8x menos lucrativos quando comparados a aplicativos que possibilitam o suporte a publicidade e comércio (compras no app). 
+
 
 #### Pergunta/Análise 3
 > * Pergunta 3
->   
+> 
 >   * Levando em consideração a faixa etária e a plataforma no qual o aplicativo pertence, qual a categoria de aplicativo mais baixado por cada público-alvo ?  
->   A Faixa Etária Livre possui a maior quantidade de downloads juntamente com a Faixa Etária para indivíduos maiores de 12 anos. A partir desses dados  
+> ![Download X Faixa Etária](assets/Downloads_por_faixaEtaria.png)
+>   A Faixa Etária Livre possui a maior quantidade de downloads juntamente com a Faixa Etária para indivíduos maiores de 12 anos.   
 
+### Gráficos de análise
 > Coloque um link para o arquivo do notebook que executa o conjunto de queries. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
