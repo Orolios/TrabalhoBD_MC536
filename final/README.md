@@ -31,7 +31,7 @@ CLASSIFICACAO(_Id_, IdAplicativo, FatorClassificatorio, QuantidadeVotos, Nota)
 MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 ~~~
 
-> ![Modelo Lógico Hierárquico](assets/docs.png)
+> ![Modelo Lógico Hierárquico](assets/Modelo_hierárquico.png)
 
 ## Dataset Publicado
 > Elencar os arquivos/bases preliminares dos datasets serão publicados.
