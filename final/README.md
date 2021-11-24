@@ -81,7 +81,27 @@ connection = create_connection("127.***.***.**", "root", "password","database")
 #### Util.py
 > Aqui faz-se o estruturarmento e pré-tratamento dos dados das tabelas mães e a criação de funções úteis que definem dicionários utilizados no tratamento dos dados dos csv's dos códigos de "Tratamento e inserção.
 #### body.py
->
+> Aqui se cria o Banco em si, ou seja, ao executar esse código, uma sequência de queries é executada de forma a criar as tabelas do banco e seus respectivos relacionamentos. A partir disso, insere-se os dados antes trabalhados em Util.py, os quais definirão importantes relacinamentos e chaves para a análise das tabelas, bem como a própria tabela de Modelo de monetização (ModMon) que é a síntese de uma simplificação de quais são os possíveis jeitos de monetizar um aplicativo.
+> Exemplo:
+~~~python
+def insert_categorias_database(connection, array):
+    cursor = connection.cursor()
+    print(array)
+    try:
+        for x in array:
+            query = ("INSERT INTO Categoria (Nome) values('{}');".format(x))
+            cursor.execute(query)
+        query = ("INSERT INTO Plataforma (Nome) values('{}');".format("Android"))
+        cursor.execute(query)
+        query = ("INSERT INTO Plataforma (Nome) values('{}');".format("Ios"))
+        cursor.execute(query)
+
+        connection.commit()
+        print("Queries executada!")
+
+    except Exception as e:
+        print(f"The error '{e}' occurred")
+~~~
 
 
 > Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
