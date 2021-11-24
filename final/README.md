@@ -31,7 +31,7 @@ CLASSIFICACAO(_Id_, IdAplicativo, FatorClassificatorio, QuantidadeVotos, Nota)
 MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 ~~~
 
-> ![Modelo Lógico Hierárquico](assets/docs.png)
+> ![Modelo Lógico Hierárquico](assets/Modelo_hierárquico.png)
 
 ## Dataset Publicado
 > Elencar os arquivos/bases preliminares dos datasets serão publicados.
@@ -53,9 +53,33 @@ título da base | link | breve descrição
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `Dataset com 7200 dados de Aplicativos no IOs para a análise.`
 
 ## Detalhamento do Projeto
-> Apresente aqui detalhes do processo de construção do dataset e análise. Nesta seção ou na seção de Perguntas podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
-> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
+> O projeto em quesntão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
+### "Estruturação e Conexão"
+#### connetion.py
+> Nesse códico em questão apenas se faz a conexão do python ao MySql e ao banco de dados criado localmente pelo terminal do MySql da seguinte forma:
+~~~python
+import mysql.connector
+from mysql.connector import Error
+def create_connection(host_name, user_name, user_password,db_name):
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host=host_name,
+            user=user_name,
+            passwd=user_password,
+            database=db_name,
+        )
+        print("Connection to MySQL DB successful")
+    except Error as e:
+        print(f"The error '{e}' occurred")
+    return connection
 
+
+connection = create_connection("127.0.0.1", "root", "root123","app_mc536")
+~~~python
+#### body.py
+#### util.py
+### "Tratamento e Inserção"
 ~~~python
 df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
 sns.set(color_codes=True);
