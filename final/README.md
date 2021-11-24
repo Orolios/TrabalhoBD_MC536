@@ -53,9 +53,9 @@ título da base | link | breve descrição
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `Dataset com 7200 dados de Aplicativos no IOs para a análise.`
 
 ## Detalhamento do Projeto
-> Apresente aqui detalhes do processo de construção do dataset e análise. Nesta seção ou na seção de Perguntas podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
-> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
-### Teste
+> O projeto em quesntão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção"
+### "Estruturação e Conexão"
+### "Tratamento e Inserção"
 ~~~python
 df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
 sns.set(color_codes=True);
