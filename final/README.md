@@ -53,7 +53,7 @@ título da base | link | breve descrição
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `Dataset com 7200 dados de Aplicativos no IOs para a análise.`
 
 ## Detalhamento do Projeto
-> O projeto em quesntão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
+> O projeto em questão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src/banco) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
 ### "Estruturação e Conexão"
 #### connetion.py
 > Nesse códico em questão apenas se faz a conexão do python ao MySql e ao banco de dados criado localmente pelo terminal do MySql da seguinte forma:
@@ -75,31 +75,65 @@ def create_connection(host_name, user_name, user_password,db_name):
     return connection
 
 
-connection = create_connection("127.0.0.1", "root", "root123","app_mc536")
-~~~python
-#### body.py
-#### util.py
-### "Tratamento e Inserção"
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
+connection = create_connection("127.***.***.**", "root", "password","database")
 ~~~
+> Diante disso, qualquer código que faça alguma operação no banco, deverá importar o objeto connetion em seu código.
+#### util.py
+> Aqui faz-se o estruturarmento e pré-tratamento dos dados das tabelas mães e a criação de funções úteis que definem dicionários utilizados no tratamento dos dados dos csv's((disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/data)) dos códigos de "Tratamento e inserção.
+#### body.py
+> Aqui se cria o Banco em si, ou seja, ao executar esse código, uma sequência de queries é executada de forma a criar as tabelas do banco e seus respectivos relacionamentos. A partir disso, insere-se os dados antes trabalhados em Util.py, os quais definirão importantes relacinamentos e chaves para a análise das tabelas, bem como a própria tabela de Modelo de monetização (ModMon) que é a síntese de uma simplificação de quais são os possíveis jeitos de monetizar um aplicativo.
+> Exemplo:
+~~~python
+def insert_categorias_database(connection, array):
+    cursor = connection.cursor()
+    print(array)
+    try:
+        for x in array:
+            query = ("INSERT INTO Categoria (Nome) values('{}');".format(x))
+            cursor.execute(query)
+        query = ("INSERT INTO Plataforma (Nome) values('{}');".format("Android"))
+        cursor.execute(query)
+        query = ("INSERT INTO Plataforma (Nome) values('{}');".format("Ios"))
+        cursor.execute(query)
 
-> Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
-![Workflow no Orange](images/orange-zombie-meals-prediction.png)
+        connection.commit()
+        print("Queries executada!")
 
-> Coloque um link para o arquivo do notebook, programas ou workflows que executam as operações que você apresentar.
+    except Exception as e:
+        print(f"The error '{e}' occurred")
+~~~
+### "Tratamento e Inserção"
+> Em todos os arquivos dessa secção trabalham-se a leitura do csv e adaptação dos dados de forma a deixá-los no molde do banco. Diante disso, para cada código/csv os dados são lidados de maneira diferente. Por exemplo:
+> Em apple.py teremos:
+~~~python
+def publico(case):
+    if case == "4+":
+        return "Livre"
+    elif case == "9+":
+        return "Maiores de 10 anos"
+    elif case == "12+":
+        return "Maiores de 12 anos"
+    elif case == "17+":
+        return "Maiores de 18 anos"
+    else:
+        return "Livre"
+~~~
+>Já em google.py teremos:
+~~~python
+def publico(case):
+    if case == "Everyone":
+        return "Livre"
+    elif case == "Everyone 10+":
+        return "Maiores de 10 anos"
+    elif case == "Teen":
+        return "Maiores de 12 anos"
+    elif case == "Mature 17+":
+        return "Maiores de 18 anos"
+    else:
+        return "Livre"
+~~~
+> Dessa forma  a inforação converge para o mesmo modelo e se apta para os moldes definidos pelo dataset a ser criado.
 
-> Aqui devem ser apresentadas as operações de construção do dataset:
-* extração de dados de fontes não estruturadas como, por exemplo, páginas Web
-* agregação de dados fragmentados obtidos a partir de API
-* integração de dados de múltiplas fontes
-* tratamento de dados
-* transformação de dados para facilitar análise e pesquisa
-
-> Se for notebook, ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src` (por exemplo, arquivos do Orange ou Cytoscape). Se as operações envolverem queries executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
 
 ## Evolução do Projeto
 > O Projeto Mobile App Analysis foi escolhido com o objetivo de analisar os aplicativos Android e iOS com relação a vários fatores como: aplicativos mais bem avaliados com relação a sua categoria, relação de aplicativos pagos e gratuitos, quantidade de downloads por plataformas referentes aos apps. Primeiramente pensamos em utilizar o modelo lógico de grafos, porém devido a debates com os membros do grupo sobre a estrutura do arquivo CSV, determinamos que o modelo de documentos seria o candidato ideal, ao contrário do modelo de grafos. Utilizamos também o Modelo Tabular no qual importamos os arquivos brutos do site Kaggle, onde utilizamos operações de construção do nosso dataset sobre esses arquivos em CSV como: tratamento de dados através da exclusão dos aplicativos que não possuem avaliação e quantidade de downloads informados, integração dos dados através da construção de tabelas utilizando SQL e transformação de dados para facilitar a análise e pesquisa. 
