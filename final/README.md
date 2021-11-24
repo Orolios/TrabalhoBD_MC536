@@ -37,7 +37,7 @@ MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 
 título do arquivo/base | link | breve descrição
 ----- | ----- | -----
-`Aplicativo_202111240052.sql` | [Aplicativos](final/data/Aplicativo_202111240052.sql) | `Tabela com 25 mil aplicativos iOS e Android`
+`Aplicativo_202111240052.sql` | [Aplicativos](data/Aplicativo_202111240052.sql) | `Tabela com 25 mil aplicativos iOS e Android`
 `Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
 `Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
 `Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
