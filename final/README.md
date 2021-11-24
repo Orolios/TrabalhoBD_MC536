@@ -228,5 +228,9 @@ Além disso podemos relacionar números de downloads, número de avaliações e 
 > ![Downloads X Modelo](assets/FaixaEtaria_quantidadeAplicativos.png)
 > ![Download X Faixa Etária](assets/Downloads_por_faixaEtaria.png)
 > 
->   A Faixa Etária Livre possui a maior quantidade de downloads juntamente com a Faixa Etária para indivíduos maiores de 12 anos.   
+>   De acordo com o gráfico de Downloads por Faixa Etária, a Faixa Etária Livre possui a maior quantidade de downloads, com mais de  1.0x10e11 downloads, seguido pela categoria de Maiores de 12 anos com 0.4x10e11 downloads.
+A Faixa Etária com a menor quantidade de downloads é para o público com idade maior do que 18 anos.
+A Faixa Etária com indicação Livre devido a ser aberto ao público geral permite, por exemplo, que uma empresa direcione publicidade a esses apps, desde que ele possua suporte a isso.
+Mesmo na Faixa Etária Livre ainda é possivel ver maior relevancia em relação aos outras Faixas
+
 
