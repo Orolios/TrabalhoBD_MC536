@@ -55,8 +55,8 @@ título do arquivo/base | link | breve descrição
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`Google Play Store Apps` | `https://www.kaggle.com/lava18/google-play-store-apps` | `<breve descrição da base>`
-`Google Play Store Apps` | `https://www.kaggle.com/gauthamp10/google-playstore-apps/code` | `<breve descrição da base>`
+`Google Play Store Apps` | `https://www.kaggle.com/lava18/google-play-store-apps` | ``
+`Google Play Store Apps` | `https://www.kaggle.com/gauthamp10/google-playstore-apps` | `<breve descrição da base>`
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `<breve descrição da base>`
 
 ## Detalhamento do Projeto
@@ -121,6 +121,6 @@ plt.show();
 #### Pergunta/Análise 1
 > * Pergunta 1
 >   
->   * 2 - Qual a diferença na quantidade de downloads considerando o ano de 2019 (pré-pandemia) e o ano de 2021 (pós-pandemia), considerando as categorias aos quais eles pertencem ?
+>   * Qual a diferença na quantidade de downloads considerando o ano de 2019 (pré-pandemia) e o ano de 2021 (pós-pandemia), considerando as categorias aos quais eles pertencem ?
 
 > Coloque um link para o arquivo do notebook que executa o conjunto de queries. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
