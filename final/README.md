@@ -108,14 +108,12 @@ plt.show();
 #### Pergunta/Análise 2
 > * Pergunta 2
 >   
->   * Explicação sucinta da análise que será feita e conjunto de queries que
->     responde à pergunta.
+>   * Relacionando aplicativos pagos com os aplicativos gratuitos. 
 
 #### Pergunta/Análise 3
 > * Pergunta 3
 >   
->   * Explicação sucinta da análise que será feita e conjunto de queries que
->     responde à pergunta.
+>   * Levando em consideração a faixa etária e a plataforma no qual o aplicativo pertence, qual a categoria de aplicativo mais baixado por cada público-alvo ? 
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
