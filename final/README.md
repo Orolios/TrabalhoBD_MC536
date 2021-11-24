@@ -157,7 +157,7 @@ def publico(case):
 #### Pergunta/Análise 1
 > * Pergunta 1
 >   
->   * Quais são os Top 10 aplicativos mais bem avaliados com suporte para propaganda com relação às categorias às quais eles pertencem ? 
+>   * Quais são os aplicativos mais bem avaliados da loja Google Play ? 
 
 #### Pergunta/Análise 2
 > * Pergunta 2
