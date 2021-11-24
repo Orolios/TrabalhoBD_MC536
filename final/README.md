@@ -144,10 +144,40 @@ def publico(case):
 
 ## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
-> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de detalhamento do projeto (o que for mais pertinente).
+>Para a análise e resposta das perguntas, fez-se as seguintes queries:
+~~~sql
+SELECT Categoria.nome AS Categorias, SUM(Apps_2019.download) AS Donwloads
+FROM (SELECT Aplicativo.id, Aplicativo.nome, Aplicativo.Idcategoria, Aplicativo.download, Class.nota, Class.quantidadeVotos, Class.fator
+FROM Aplicativo, Class
+WHERE Aplicativo.ano = 2019 AND Aplicativo.id = Class.idAplicativo AND Aplicativo.idPlataforma = 1
+)Apps_2019, Categoria
+WHERE Apps_2019.IdCategoria = Categoria.id
+GROUP BY Apps_2019.IdCategoria;
 
-> Liste aqui as perguntas de pesquisa/análise e respectivas análises. Nem todas as perguntas precisam de queries que as implementam. É possível haver perguntas em que a solução é apenas descrita para demonstrar o potencial da base. Abaixo são ilustradas três perguntas, mas pode ser um número maior a critério da equipe.
->
+SELECT DISTINCT top10.nome from (
+SELECT Aplicativo.nome, Class.fator, Categoria.Nome as categoria, Aplicativo.faixa_etaria, Aplicativo.download, Class.quantidadeVotos
+FROM app_mc536.Aplicativo, app_mc536.Class, app_mc536.Categoria
+WHERE Aplicativo.id = Class.idAplicativo AND Aplicativo.idCategoria = Categoria.id
+ORDER BY  Class.fator DESC, Class.quantidadeVotos DESC, Class.nota DESC
+LIMIT 1, 100
+)top10
+LIMIT 1, 10;
+
+SELECT Aplicativo.faixa_etaria, SUM(Aplicativo.download)
+FROM Aplicativo
+WHERE Aplicativo.preco <> 0
+GROUP BY Aplicativo.faixa_etaria;
+
+SELECT Categoria.nome, SUM(Class.quantidadeVotos)
+FROM Aplicativo, Categoria, Class
+WHERE Aplicativo.idCategoria = Categoria.id AND Class.idAplicativo = Aplicativo.id
+GROUP BY Categoria.nome;
+
+SELECT ModMon.Tipo AS Modelo, SUM(Ap.download) AS Downloads
+FROM Aplicativo Ap, ModMon
+Where Ap.idModelo = ModMon.id
+GROUP BY ModMon.Tipo;
+~~~
 ### Perguntas/Análise com Resposta Implementada
 
 > As respostas às perguntas podem devem ser ilustradas da forma mais rica possível com tabelas resultantes, grafos ou gráficos que apresentam os resultados. Os resultados podem ser analisados e comentados. Veja um exemplo de figura ilustrando uma comunidade detectada no Cytoscape:
