@@ -53,7 +53,7 @@ título da base | link | breve descrição
 `Mobile App Store ( 7200 apps)` | `https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps` | `Dataset com 7200 dados de Aplicativos no IOs para a análise.`
 
 ## Detalhamento do Projeto
-> O projeto em quesntão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
+> O projeto em questão é estruturado em com o auxílio de 6 códigos em python (disponível em: https://github.com/Orolios/TrabalhoBD_MC536/tree/main/final/src) através de um servidor local MySql. Sendo esses códigos dividos em códigos de "Estruturação e Conexão" e em códigos de "Tratamento e Inserção".
 ### "Estruturação e Conexão"
 #### connetion.py
 > Nesse códico em questão apenas se faz a conexão do python ao MySql e ao banco de dados criado localmente pelo terminal do MySql da seguinte forma:
@@ -75,17 +75,14 @@ def create_connection(host_name, user_name, user_password,db_name):
     return connection
 
 
-connection = create_connection("127.0.0.1", "root", "root123","app_mc536")
-~~~python
-#### body.py
-#### util.py
-### "Tratamento e Inserção"
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
+connection = create_connection("127.***.***.**", "root", "password","database")
 ~~~
+> Diante disso, qualquer código que faça alguma operação no banco, deverá importar o objeto connetion em seu código.
+#### Util.py
+> Aqui faz-se o estruturarmento e pré-tratamento dos dados das tabelas mães e a criação de funções úteis que definem dicionários utilizados no tratamento dos dados dos csv's dos códigos de "Tratamento e inserção.
+#### body.py
+>
+
 
 > Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
 ![Workflow no Orange](images/orange-zombie-meals-prediction.png)
