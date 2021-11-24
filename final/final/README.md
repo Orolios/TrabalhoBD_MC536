@@ -6,7 +6,7 @@
 * `Daniel Mendes dos Santos` - `214752`
 
 ## Resumo do Projeto
->  O projeto Mobile App Analysis visa analisar o comportamento das duas maiores plataformas mobile atualmente: Android e iOS através dos aplicativos que são disponibilizados nas respectivas lojas. Através do processamento de ambos os datasets é possível determinar, por exemplo, qual plataforma oferece para uma determinada empresa maior lucratividade na disponibilização dos seus anúncios.  
+>  O projeto Mobile App Analysis visa analisar o comportamento das duas maiores plataformas mobile atualmente: Android e iOS através dos aplicativos que são disponibilizados nas respectivas lojas. Através do processamento de ambos os datasets é possível determinar, por exemplo, qual plataforma oferece para uma determinada empresa maior lucratividade na disponibilização dos seus anúncios.  final
 >  Além disso, é possível observar o comportamento de um aplicativo que possui uma versão paga e outra gratuita como, por exemplo, se a versão paga possui qualidade superior quando comparado com a versão gratuita.  
 >  Na plataforma do Android no qual temos os datasets referentes a 2019 e 2021 será possível observar o comportamento dos aplicativos com relação a sua categoria que obtiveram crescimento durante o atual momento de pandemia.
 
@@ -37,7 +37,7 @@ MODELO_DE_MONETIZACAO(_Id_, Publicidade, Gratuito, CompraNoApp)
 
 título do arquivo/base | link | breve descrição
 ----- | ----- | -----
-`Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
+`Aplicativo_202111240052.sql` | .[Aplicativos](slides/esb.pdf) | `Tabela com 25 mil aplicativos iOS e Android`
 `Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
 `Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
 `Aplicativo_202111240052.sql` | `Aplicativo_202111240052.sql` | `Tabela com 25 mil aplicativos iOS e Android`
