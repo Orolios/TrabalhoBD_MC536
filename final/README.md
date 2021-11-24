@@ -52,7 +52,6 @@ título do arquivo/base | link | breve descrição
 > Este é o conjunto mínimo de informações que deve constar na disponibilização do Dataset, mas a equipe pode enriquecer esta seção.
 
 ## Bases de Dados
-> Elencar as bases de dados fonte utilizadas no projeto.
 
 título da base | link | breve descrição
 ----- | ----- | -----
