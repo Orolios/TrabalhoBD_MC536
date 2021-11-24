@@ -177,6 +177,20 @@ SELECT ModMon.Tipo AS Modelo, SUM(Ap.download) AS Downloads
 FROM Aplicativo Ap, ModMon
 Where Ap.idModelo = ModMon.id
 GROUP BY ModMon.Tipo;
+
+SELECT Aplicativo.faixa_etaria, COUNT(*)
+FROM Aplicativo
+WHERE Aplicativo.preco <> 0
+GROUP BY Aplicativo.faixa_etaria;
+
+SELECT Aplicativo.faixa_etaria, COUNT(*)
+FROM Aplicativo
+WHERE Aplicativo.preco = 0
+GROUP BY Aplicativo.faixa_etaria;
+
+SELECT A.faixa_etaria, SUM(A.download)
+FROM Aplicativo A
+GROUP BY A.faixa_etaria;
 ~~~
 ### Perguntas/Análise com Resposta Implementada
 
